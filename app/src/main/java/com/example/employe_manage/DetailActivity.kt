@@ -38,11 +38,20 @@ class DetailActivity() : AppCompatActivity() {
         binding.connectButton.setOnClickListener {
             toggleConnection()
         }
+        binding.back.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                onBackPressed()
+            }
+        })
+
 
         loadOtheruser()
         loadCurrentUser()
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+    }
     private fun loadOtheruser() {
         binding.progressBar?.visibility = View.VISIBLE // Show ProgressBar
 
