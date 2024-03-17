@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_candidate.xml -->
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#CED1EF"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_4sdp"
+    android:id="@+id/navigateDetail"
+    android:padding="16dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/purple"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:text="User Name"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/professionTx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:text="profession"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--            <ImageView-->
+        <!--                android:id="@+id/postImageView"-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_margin="8dp"-->
+        <!--                android:scaleType="centerCrop"-->
+        <!--                android:src="@drawable/ic_launcher_background" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/userTc"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:hint="Username" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/companyTx"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:hint="company" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/professionTx"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:hint="profession" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/emailTx"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:hint="email" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/phonenumberTx"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:hint="phone number" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/collageTx"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:hint="collage"-->
+        <!--                android:inputType="phone" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/schoolTx"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:hint="school" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/cityTx"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:hint="city" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/countyTx"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:hint="county" />-->
+
+
+
+</com.google.android.material.card.MaterialCardView>
